@@ -165,7 +165,7 @@ func (r *Renderer) renderOneObject(layer *tiled.ObjectGroup, o *tiled.Object) er
 		return err
 	}
 
-	img, err := r.getTileImage(tile)
+	img, err := r.GetTileImage(tile)
 	if err != nil {
 		return err
 	}
